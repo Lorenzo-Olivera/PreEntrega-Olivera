@@ -240,6 +240,7 @@ footer {
 .tarjeta-productoamigu {
     border: 2px solid black;
     border-radius: 22px;
+    padding: 10px;
 
     min-width: 300px;
     height: 350px;
