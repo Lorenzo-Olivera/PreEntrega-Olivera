@@ -22,8 +22,7 @@ a {
     background-color: #c2372d;
     padding: 30px;
     border: black solid 3px;
-    /* text-align: center;
-    align-items: center; */
+
 }
 
 .portada-h1index {
@@ -99,6 +98,14 @@ a {
     padding: 15px;
     border-radius: 15px;
     font-size: 30px;
+
+    transition-duration: 1s;
+}
+
+.titulo-portada h2:hover {
+    background-color: #4f2d6e52;
+    transform: scale(1);
+    box-shadow: 0px 4px 10px 15px;
 }
 
 /* --------PRODUCTOS--------- */
@@ -187,9 +194,7 @@ footer {
     background-color: rgb(226, 118, 154);
     padding: 15px;
     border: black solid 3px;
-
-    display: flex;
-    justify-content: space-between;
+    text-align: center;
 }
 
 .header-amigu h1 {
@@ -197,10 +202,27 @@ footer {
 }
 
 .lista-portadaamigu ul li {
-    display: inline-block;
+    display: flex;
     margin: 15px;
-    border-right: black solid 2px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
     padding-right: 25px;
+}
+
+
+@media (min-width: 768px) {
+    .header-amigu {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+    }
+
+    .lista-portadaamigu ul li {
+        display: inline-block;
+        border-right: black solid 2px;
+    }
 }
 
 
@@ -222,8 +244,15 @@ footer {
     padding: 15px;
     border-radius: 15px;
     font-size: 35px;
+
+    transition-duration: 1s;
 }
 
+.titulo-portadaamigu h2:hover {
+    background-color: #ec313183;
+    transform: scale(1);
+    box-shadow: 0px 5px 10px 10px;
+}
 
 /* ---------producto--------- */
 
@@ -359,11 +388,12 @@ footer {
     text-align: justify;
 }
 
-@media (min-width: 768px){
-    .info-nosotros div h3{
+@media (min-width: 768px) {
+    .info-nosotros div h3 {
         display: inline-block;
     }
 }
+
 /* --------------- TARJETA ------------- */
 
 .tarjeta-nosotros {
@@ -474,12 +504,13 @@ footer {
     text-align: justify;
 }
 
-@media (min-width: 768px){
-.info-preguntas div h3{
-    display: inline-block;
-}
+@media (min-width: 768px) {
+    .info-preguntas div h3 {
+        display: inline-block;
+    }
 
 }
+
 /* --------------- FOOTER ------------- */
 
 footer {
@@ -514,9 +545,7 @@ footer {
     background-color: rgb(226, 118, 154);
     padding: 30px;
     border: black solid 1px;
-
-    display: flex;
-    justify-content: space-between;
+    text-align: center;
 }
 
 .header-contacto h1 {
@@ -524,11 +553,29 @@ footer {
 }
 
 .lista-portadacontacto ul li {
-    display: inline-block;
+    display: flex;
     margin: 15px;
-    border-right: black solid 2px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
     padding-right: 25px;
 }
+
+@media (min-width: 768px) {
+    .header-contacto {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+    }
+
+    .lista-portadacontacto ul li {
+        display: inline-block;
+        border-right: black solid 2px;
+    }
+}
+
+
 
 /* --------------- PORTADA ------------- */
 
