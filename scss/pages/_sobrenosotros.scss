@@ -1,0 +1,38 @@
+/* ========================================== SOBRENOSOTROS==================================================== */
+
+/* --------------- PORTADA ------------- */
+
+.titulo-portadanosotros {
+    background-color: #1f1429;
+    padding: 25px;
+    font-size: 20px;
+    text-align: center;
+    border: black solid 3px;
+    color: white;
+}
+
+/* --------------- SECTION ------------- */
+
+.info-nosotros div h3 {
+    font-size: 22px;
+    font-style: italic;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    border-style: double;
+    display: block;
+    align-items: center;
+    text-align: center;
+    background-color: #e9c1a7cc;
+
+    div p {
+        font-size: 19px;
+        margin-bottom: 15px;
+        text-align: justify;
+    }
+}
+
+@media (min-width: 768px) {
+    .info-nosotros div h3 {
+        display: inline-block;
+    }
+}

@@ -1,0 +1,588 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: normal;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  text-decoration-color: none;
+}
+
+/* -----Botones------ */
+.btn {
+  border: 2px solid black;
+  color: aliceblue;
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 8px 10px;
+  display: block;
+  width: 200px;
+  text-align: center;
+  background-color: rgb(221, 88, 132);
+  transform: translate(0px, 5px);
+  transition-duration: 1s;
+}
+.btn:hover {
+  background-color: #1f1429;
+  transform: scale(1);
+  box-shadow: 0px 4px 10px;
+}
+
+/* =============================================== INDEX===================================================== */
+.header-index {
+  background-color: #c2372d;
+  padding: 30px;
+  border: black solid 3px;
+}
+.header-index h1 {
+  font-size: 64px;
+  padding-bottom: 10px;
+  color: white;
+  text-align: center;
+}
+
+.lista-portadaindex ul li {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+  padding-right: 25px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .header-index {
+    text-align: center;
+    align-items: center;
+  }
+}
+@media (min-width: 768px) {
+  .lista-portadaindex ul li {
+    display: inline-block;
+    border-right: black solid 2px;
+  }
+}
+/* =============================================== AMIGURUMIS===================================================== */
+.header-amigu {
+  background-color: rgb(226, 118, 154);
+  padding: 15px;
+  border: black solid 3px;
+  text-align: center;
+}
+.header-amigu h1 {
+  font-size: 50px;
+}
+.header-amigu nav {
+  display: flex;
+  margin: 15px;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  padding-right: 25px;
+}
+
+@media (min-width: 768px) {
+  .header-amigu {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+  }
+  nav {
+    display: inline-block;
+    border-right: black solid 2px;
+  }
+}
+/* ========================================== SOBRE NOSOTROS==================================================== */
+.header-nosotros {
+  background-color: rgb(226, 118, 154);
+  padding: 30px;
+  border: black solid 1px;
+  text-align: center;
+}
+.header-nosotros h1 {
+  font-size: 65px;
+}
+.header-nosotros nav {
+  display: flex;
+  margin: 15px;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  padding-right: 25px;
+}
+
+@media (min-width: 768px) {
+  .header-nosotros {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+  }
+  nav {
+    display: inline-block;
+    border-right: black solid 2px;
+  }
+}
+/* ======================== PREGUNTAS FRECUENTES========================== */
+.header-preguntas {
+  background-color: rgb(226, 118, 154);
+  padding: 30px;
+  border: black solid 1px;
+  text-align: center;
+}
+.header-preguntas h1 {
+  font-size: 65px;
+}
+.header-preguntas nav {
+  display: flex;
+  margin: 15px;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  padding-right: 25px;
+}
+
+@media (min-width: 768px) {
+  .header-preguntas {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+  }
+  nav {
+    display: inline-block;
+    border-right: black solid 2px;
+  }
+}
+/* ======================== CONTACTO========================== */
+.header-contacto {
+  background-color: rgb(226, 118, 154);
+  padding: 30px;
+  border: black solid 1px;
+  text-align: center;
+}
+.header-contacto h1 {
+  font-size: 65px;
+}
+.header-contacto nav {
+  display: flex;
+  margin: 15px;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  padding-right: 25px;
+}
+
+@media (min-width: 768px) {
+  .header-contacto {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+  }
+  nav {
+    display: inline-block;
+    border-right: black solid 2px;
+  }
+}
+/* =============================================== INDEX===================================================== */
+/* -----------tarjeta------------ */
+.tarjeta-producto {
+  border: 2px solid black;
+  border-radius: 22px;
+  padding: 10px;
+  min-width: 300px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+.tarjeta-producto h3,
+.tarjeta-producto span {
+  font-size: 24px;
+  padding: 10px;
+}
+.tarjeta-producto img {
+  width: 150px;
+  align-items: center;
+}
+
+/* =============================================== AMIGURUMIS===================================================== */
+/* --------- tarjeta--------- */
+.tarjeta-productoamigu {
+  border: 2px solid black;
+  border-radius: 22px;
+  padding: 10px;
+  min-width: 300px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.tarjeta-productoamigu img {
+  width: 200px;
+}
+.tarjeta-productoamigu h3,
+.tarjeta-productoamigu span {
+  font-size: 24px;
+  padding: 10px;
+}
+
+/* ========================================== SOBRE NOSOTROS==================================================== */
+/* --------------- TARJETA ------------- */
+.tarjeta-nosotros {
+  text-align: center;
+  align-items: center;
+}
+.tarjeta-nosotros img {
+  width: 75%;
+  padding: 20px;
+  margin: 20px;
+  border-style: double;
+}
+
+/* =============================================== INDEX===================================================== */
+/* --------footer-------- */
+.footer-index {
+  background-color: #38040e;
+  padding: 20px;
+  border-style: double;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.footer-index div h4 {
+  background-color: rgba(192, 237, 245, 0.863);
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 20px;
+}
+.footer-index div ul {
+  padding: 10px;
+  color: aliceblue;
+}
+
+/* =============================================== AMIGURUMIS===================================================== */
+/* --------footer-------- */
+footer {
+  background-color: #38040e;
+  padding: 20px;
+  border-style: double;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+footer div h4 {
+  background-color: rgba(192, 237, 245, 0.863);
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 20px;
+}
+footer div ul {
+  padding: 10px;
+  color: aliceblue;
+}
+
+/* ========================================== SOBRE NOSOTROS==================================================== */
+/* --------------- FOOTER ------------- */
+footer {
+  background-color: #38040e;
+  padding: 20px;
+  border-style: double;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+footer div h4 {
+  background-color: rgba(192, 237, 245, 0.863);
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 20px;
+}
+footer div ul {
+  padding: 10px;
+  color: aliceblue;
+}
+
+/* ======================== PREGUNTAS FRECUENTES========================== */
+/* --------------- FOOTER ------------- */
+footer {
+  background-color: #38040e;
+  padding: 20px;
+  border-style: double;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+footer div h4 {
+  background-color: rgba(192, 237, 245, 0.863);
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 20px;
+}
+footer div ul {
+  padding: 10px;
+  color: aliceblue;
+}
+
+/* ======================== CONTACTO========================== */
+/* --------------- FOOTER ------------- */
+footer {
+  background-color: #38040e;
+  padding: 20px;
+  border-style: double;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+footer div h4 {
+  background-color: rgba(192, 237, 245, 0.863);
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 20px;
+}
+footer ul {
+  padding: 10px;
+  color: aliceblue;
+}
+
+/* ========================================== INDEX==================================================== */
+/* ---------Portada-------- */
+.titulo-portada {
+  height: 100vh;
+  background-image: url(../img/lana\ 4.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titulo-portada h2 {
+  background-color: rgba(214, 159, 86, 0.637);
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 30px;
+  transition-duration: 1s;
+}
+.titulo-portada h2:hover {
+  background-color: rgba(79, 45, 110, 0.3215686275);
+  transform: scale(1);
+  box-shadow: 0px 4px 10px 15px;
+}
+
+/* --------PRODUCTOS--------- */
+.productos h2 {
+  background-color: bisque;
+  text-align: center;
+  padding: 20px;
+}
+
+.productos-titulos {
+  background-color: bisque;
+  text-align: center;
+  padding: 20px;
+}
+
+.slider-productosindex {
+  display: flex;
+  overflow: auto;
+  flex-direction: row;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .slider-productosindex {
+    display: flex;
+    overflow: auto;
+    flex-direction: row;
+  }
+}
+/* ========================================== AMIGURUMIS==================================================== */
+/* ------- portada--------- */
+.titulo-portadaamigu {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+  background-image: url(../img/lana\ 6.jpg);
+  background-attachment: fixed;
+}
+.titulo-portadaamigu h2 {
+  background-color: rgba(202, 237, 250, 0.726);
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 35px;
+  transition-duration: 1s;
+}
+.titulo-portadaamigu h2:hover {
+  background-color: rgba(236, 49, 49, 0.5137254902);
+  transform: scale(1);
+  box-shadow: 0px 5px 10px 10px;
+}
+.titulo-portadaamigu div {
+  display: flex;
+  overflow: auto;
+  padding: 15px;
+  gap: 20px;
+}
+
+/* ---------producto--------- */
+.slader-productosamigu {
+  display: flex;
+  overflow: auto;
+  padding: 15px;
+  gap: 20px;
+}
+
+/* ========================================== SOBRENOSOTROS==================================================== */
+/* --------------- PORTADA ------------- */
+.titulo-portadanosotros {
+  background-color: #1f1429;
+  padding: 25px;
+  font-size: 20px;
+  text-align: center;
+  border: black solid 3px;
+  color: white;
+}
+
+/* --------------- SECTION ------------- */
+.info-nosotros div h3 {
+  font-size: 22px;
+  font-style: italic;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  border-style: double;
+  display: block;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(233, 193, 167, 0.8);
+}
+.info-nosotros div h3 div p {
+  font-size: 19px;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+@media (min-width: 768px) {
+  .info-nosotros div h3 {
+    display: inline-block;
+  }
+}
+/* ========================================== PREGUNTASFRECUENTES==================================================== */
+/* --------------- PORTADA ------------- */
+.titulo-portadapreguntas {
+  background-color: #1f1429;
+  padding: 25px;
+  font-size: 20px;
+  text-align: center;
+  border: black solid 3px;
+  color: white;
+}
+
+/* --------------- SECTION ------------- */
+.info-preguntas div h3 {
+  font-size: 22px;
+  font-style: italic;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  border-style: double;
+  background-color: rgba(233, 193, 167, 0.8);
+  text-align: center;
+  display: block;
+  align-items: center;
+  text-align: center;
+}
+.info-preguntas div h3 div p {
+  font-size: 19px;
+  text-align: justify;
+}
+
+@media (min-width: 768px) {
+  .info-preguntas div h3 {
+    display: inline-block;
+  }
+}
+/* ========================================== CONTACTO==================================================== */
+/* --------------- PORTADA ------------- */
+.seccion-contacto {
+  background-image: url(../img/contacto\ 2.jpg);
+  background-attachment: fixed;
+}
+.seccion-contacto section {
+  background-color: #1f1429;
+  padding: 25px;
+  font-size: 20px;
+  text-align: center;
+  border: black solid 3px;
+  color: white;
+}
+
+/* --------------- Formulario ------------- */
+.formulario-contacto {
+  text-align: center;
+  align-items: center;
+}
+
+.formulario-contacto div label {
+  display: block;
+  margin: 5px;
+  padding: 10px;
+  font-size: 20px;
+  font-style: oblique;
+}
+.formulario-contacto div label div input,
+.formulario-contacto div label textarea {
+  margin-left: 10px;
+  border-radius: 20px;
+}
+
+.noti-usuario {
+  margin-top: 20px;
+  text-align: center;
+  align-items: center;
+}
+.noti-usuario input {
+  margin-top: 20px;
+  margin-left: 10px;
+  height: 30px;
+  width: 50px;
+}
+
+@media (min-width: 768px) {
+  .formulario-contacto {
+    text-align: left;
+    align-items: left;
+  }
+}
+@media (min-width: 768px) {
+  .noti-usuario {
+    text-align: left;
+    align-items: left;
+  }
+}
+/* --------------- Ubicacion ------------- */
+.ubicacion-contacto {
+  margin-top: 20px;
+  text-align: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .ubicacion-contacto {
+    text-align: left;
+    align-items: left;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

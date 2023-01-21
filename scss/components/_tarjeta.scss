@@ -1,0 +1,78 @@
+/* =============================================== INDEX===================================================== */
+
+/* -----------tarjeta------------ */
+
+.tarjeta-producto {
+    border: 2px solid black;
+    border-radius: 22px;
+    padding: 10px;
+
+    min-width: 300px;
+    height: 350px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+
+    h3,
+    span {
+        font-size: 24px;
+        padding: 10px;
+    }
+
+    img {
+        width: 150px;
+        align-items: center;
+    }
+}
+
+
+
+/* =============================================== AMIGURUMIS===================================================== */
+
+/* --------- tarjeta--------- */
+
+.tarjeta-productoamigu {
+    border: 2px solid black;
+    border-radius: 22px;
+    padding: 10px;
+
+    min-width: 300px;
+    height: 350px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+        width: 200px;
+    }
+
+    h3,
+    span {
+        font-size: 24px;
+        padding: 10px;
+    }
+
+}
+
+
+
+/* ========================================== SOBRE NOSOTROS==================================================== */
+
+/* --------------- TARJETA ------------- */
+
+.tarjeta-nosotros {
+    text-align: center;
+    align-items: center;
+
+    img {
+        width: 75%;
+        padding: 20px;
+        margin: 20px;
+        border-style: double;
+    }
+}

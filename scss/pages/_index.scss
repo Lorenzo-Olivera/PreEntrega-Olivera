@@ -1,0 +1,63 @@
+/* ========================================== INDEX==================================================== */
+
+/* ---------Portada-------- */
+
+
+.titulo-portada {
+    height: 100vh;
+
+    background-image: url(../img/lana\ 4.jpg);
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        background-color: rgba(214, 159, 86, 0.637);
+        padding: 15px;
+        border-radius: 15px;
+        font-size: 30px;
+
+        transition-duration: 1s;
+
+        &:hover {
+            background-color: #4f2d6e52;
+            transform: scale(1);
+            box-shadow: 0px 4px 10px 15px;
+        }
+    }
+
+}
+
+
+/* --------PRODUCTOS--------- */
+
+
+.productos h2 {
+    background-color: bisque;
+    text-align: center;
+    padding: 20px;
+}
+
+.productos-titulos {
+    background-color: bisque;
+    text-align: center;
+    padding: 20px;
+}
+
+.slider-productosindex {
+    display: flex;
+    overflow: auto;
+    flex-direction: row;
+    gap: 20px;
+}
+
+@media (min-width: 768px) {
+    .slider-productosindex {
+        display: flex;
+        overflow: auto;
+        flex-direction: row;
+    }
+}

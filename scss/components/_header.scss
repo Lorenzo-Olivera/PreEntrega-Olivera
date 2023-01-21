@@ -1,0 +1,188 @@
+/* =============================================== INDEX===================================================== */
+
+.header-index {
+    background-color: #c2372d;
+    padding: 30px;
+    border: black solid 3px;
+
+    h1 {
+        font-size: 64px;
+        padding-bottom: 10px;
+        color: white;
+        text-align: center;
+    }
+}
+
+    .lista-portadaindex ul li{
+        display: flex;
+        justify-content: center;
+        margin: 15px;
+        padding-right: 25px;
+        text-align: center;
+    }
+
+
+@media (min-width: 768px) {
+    .header-index {
+        text-align: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .lista-portadaindex ul li {
+        display: inline-block;
+        border-right: black solid 2px;
+    }
+}
+
+/* =============================================== AMIGURUMIS===================================================== */
+
+
+.header-amigu {
+    background-color: $color-headersecundario;
+    padding: 15px;
+    border: black solid 3px;
+    text-align: center;
+
+    h1 {
+        font-size: 50px;
+    }
+
+    nav {
+        display: flex;
+        margin: 15px;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        padding-right: 25px;
+
+    }
+
+}
+
+@media (min-width: 768px) {
+    .header-amigu {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+    }
+
+    nav {
+        display: inline-block;
+        border-right: black solid 2px;
+    }
+}
+
+
+/* ========================================== SOBRE NOSOTROS==================================================== */
+
+
+.header-nosotros {
+    background-color: $color-headersecundario;
+    padding: 30px;
+    border: black solid 1px;
+    text-align: center;
+
+    h1 {
+        font-size: 65px;
+    }
+
+    nav {
+        display: flex;
+        margin: 15px;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        padding-right: 25px;
+    }
+}
+
+@media (min-width: 768px) {
+    .header-nosotros {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+    }
+
+    nav {
+        display: inline-block;
+        border-right: black solid 2px;
+    }
+}
+
+/* ======================== PREGUNTAS FRECUENTES========================== */
+
+.header-preguntas {
+    background-color: $color-headersecundario;
+    padding: 30px;
+    border: black solid 1px;
+    text-align: center;
+
+    h1 {
+        font-size: 65px;
+    }
+
+    nav {
+        display: flex;
+        margin: 15px;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        padding-right: 25px;
+    }
+}
+
+@media (min-width: 768px) {
+    .header-preguntas {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+    }
+
+    nav {
+        display: inline-block;
+        border-right: black solid 2px;
+    }
+
+}
+
+/* ======================== CONTACTO========================== */
+
+
+.header-contacto {
+    background-color: $color-headersecundario;
+    padding: 30px;
+    border: black solid 1px;
+    text-align: center;
+
+    h1 {
+        font-size: 65px;
+    }
+
+    nav {
+        display: flex;
+        margin: 15px;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        padding-right: 25px;
+    }
+}
+
+@media (min-width: 768px) {
+    .header-contacto {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+    }
+
+    nav {
+        display: inline-block;
+        border-right: black solid 2px;
+    }
+}

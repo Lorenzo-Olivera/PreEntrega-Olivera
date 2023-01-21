@@ -1,0 +1,46 @@
+/* ========================================== AMIGURUMIS==================================================== */
+
+/* ------- portada--------- */
+
+.titulo-portadaamigu {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 30vh;
+    background-image: url(../img/lana\ 6.jpg);
+    background-attachment: fixed;
+
+    h2 {
+        background-color: rgba(202, 237, 250, 0.726);
+        padding: 15px;
+        border-radius: 15px;
+        font-size: 35px;
+
+        transition-duration: 1s;
+
+        &:hover {
+            background-color: #ec313183;
+            transform: scale(1);
+            box-shadow: 0px 5px 10px 10px;
+        }
+    }
+
+    div {
+        display: flex;
+        overflow: auto;
+        padding: 15px;
+        gap: 20px;
+    }
+    
+}
+
+/* ---------producto--------- */
+
+.slader-productosamigu {
+    display: flex;
+    overflow: auto;
+    padding: 15px;
+    gap: 20px;
+}

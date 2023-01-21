@@ -1,0 +1,38 @@
+/* ========================================== PREGUNTASFRECUENTES==================================================== */
+
+/* --------------- PORTADA ------------- */
+
+.titulo-portadapreguntas {
+    background-color: #1f1429;
+    padding: 25px;
+    font-size: 20px;
+    text-align: center;
+    border: black solid 3px;
+    color: white;
+}
+
+/* --------------- SECTION ------------- */
+
+.info-preguntas div h3 {
+    font-size: 22px;
+    font-style: italic;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    border-style: double;
+    background-color: #e9c1a7cc;
+    text-align: center;
+    display: block;
+    align-items: center;
+    text-align: center;
+
+    div p {
+        font-size: 19px;
+        text-align: justify;
+    }
+}
+
+@media (min-width: 768px) {
+    .info-preguntas div h3 {
+        display: inline-block;
+    }
+}

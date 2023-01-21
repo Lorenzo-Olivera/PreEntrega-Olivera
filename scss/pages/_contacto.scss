@@ -1,0 +1,84 @@
+/* ========================================== CONTACTO==================================================== */
+
+/* --------------- PORTADA ------------- */
+
+.seccion-contacto {
+    background-image: url(../img/contacto\ 2.jpg);
+    background-attachment: fixed;
+
+    section {
+        background-color: #1f1429;
+        padding: 25px;
+        font-size: 20px;
+        text-align: center;
+        border: black solid 3px;
+        color: white;
+    }
+}
+
+
+/* --------------- Formulario ------------- */
+
+.formulario-contacto {
+    text-align: center;
+    align-items: center;
+}
+
+
+.formulario-contacto div label {
+    display: block;
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+    font-style: oblique;
+
+
+    div input,
+    textarea {
+        margin-left: 10px;
+        border-radius: 20px;
+    }
+
+}
+
+.noti-usuario {
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+
+    input {
+        margin-top: 20px;
+        margin-left: 10px;
+        height: 30px;
+        width: 50px;
+    }
+}
+
+@media (min-width: 768px) {
+    .formulario-contacto {
+        text-align: left;
+        align-items: left;
+    }
+}
+
+@media (min-width: 768px) {
+    .noti-usuario {
+        text-align: left;
+        align-items: left;
+    }
+}
+
+/* --------------- Ubicacion ------------- */
+
+.ubicacion-contacto {
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .ubicacion-contacto {
+        text-align: left;
+        align-items: left;
+    }
+}
