@@ -372,7 +372,7 @@ footer ul {
 /* ---------Portada-------- */
 .titulo-portada {
   height: 100vh;
-  background-image: url(../../img/lana4.jpg);
+  background-image: url(../img/lana4.jpg);
   background-position: center;
   background-size: cover;
   display: flex;
@@ -430,7 +430,7 @@ footer ul {
   align-items: center;
   justify-content: center;
   height: 75vh;
-  background-image: url(/img/lana6.jpg);
+  background-image: url(../img/lana6.jpg);
   background-attachment: fixed;
 }
 .titulo-portadaamigu h2 {
@@ -536,7 +536,7 @@ footer ul {
 /* ========================================== CONTACTO==================================================== */
 /* --------------- PORTADA ------------- */
 .seccion-contacto {
-  background-image: url(../img/contacto2);
+  background-image: url(../img/contacto2.jpg);
   background-attachment: fixed;
 }
 .seccion-contacto section {
