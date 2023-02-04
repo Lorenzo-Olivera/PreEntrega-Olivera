@@ -8,17 +8,18 @@
     align-items: center;
     justify-content: center;
 
-    height: 30vh;
-    background-image: url(../img/lana\ 6.jpg);
+    height: 75vh;
+    background-image: url(/img/lana6.jpg);
     background-attachment: fixed;
 
     h2 {
         background-color: rgba(202, 237, 250, 0.726);
         padding: 15px;
         border-radius: 15px;
-        font-size: 35px;
+        font-size: 40px;
+        border: black solid 3px;
 
-        transition-duration: 1s;
+        transition-duration: 2s;
 
         &:hover {
             background-color: #ec313183;

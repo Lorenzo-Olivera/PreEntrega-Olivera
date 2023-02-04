@@ -6,7 +6,7 @@
 .titulo-portada {
     height: 100vh;
 
-    background-image: url(../img/lana\ 4.jpg);
+    background-image: url(/img/lana4.jpg);
     background-position: center;
     background-size: cover;
 
@@ -18,7 +18,8 @@
         background-color: rgba(214, 159, 86, 0.637);
         padding: 15px;
         border-radius: 15px;
-        font-size: 30px;
+        font-size: 36px;
+        border: black solid 3px;
 
         transition-duration: 1s;
 
@@ -39,6 +40,8 @@
     background-color: bisque;
     text-align: center;
     padding: 20px;
+    border: black solid 1px;
+    font-size: 35px;
 }
 
 .productos-titulos {
